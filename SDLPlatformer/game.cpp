@@ -140,11 +140,11 @@ void Game::render()
     }
     else if(runRight)
     {
-        tm->drawFrame("spaceman", playerXPos, 480, 50, 57, 2, currentFrame, g_pRenderer, SDL_FLIP_NONE);
+        tm->drawFrame("spaceman", playerXPos, 475, 50, 59, 2, currentFrame, g_pRenderer, SDL_FLIP_NONE);
     }
     else if(runLeft)
     {
-        tm->drawFrame("spaceman", playerXPos, 480, 50, 57, 2, currentFrame, g_pRenderer, SDL_FLIP_HORIZONTAL);
+        tm->drawFrame("spaceman", playerXPos, 475, 50, 59, 2, currentFrame, g_pRenderer, SDL_FLIP_HORIZONTAL);
     }
     SDL_RenderPresent(g_pRenderer);
 }

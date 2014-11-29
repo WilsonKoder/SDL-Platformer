@@ -12,12 +12,12 @@ int Player::moveX(bool left)
 {
     if(left == true)
     {
-        xPosition -= 2;
+        xPosition -= 1;
         return xPosition;
     }
     else
     {
-        xPosition += 2;
+        xPosition += 1;
         return xPosition;
     }
     return 0;
